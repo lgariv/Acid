@@ -14,7 +14,6 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 										      blue:0.149 
 											 alpha:ALPHA];
 
-UIColor *shouldUseColor;
 
 %hook NCNotificationShortLookViewController
 -(void)viewDidLoad {
