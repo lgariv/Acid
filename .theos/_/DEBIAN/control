@@ -1,0 +1,10 @@
+Package: com.miwix.acid
+Name: Acid
+Depends: mobilesubstrate, firmware (>= 13.0)
+Architecture: iphoneos-arm
+Description: Making the lockscreen colors a little bit more pleasing to my taste. Inspired by "Ayedapt" theme!
+Maintainer: Lavie Gariv
+Author: Lavie Gariv
+Section: Tweaks
+Version: 1.0.0-3+debug
+Installed-Size: 368

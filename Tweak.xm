@@ -214,6 +214,12 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 										}
 									}
 								}
+							} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+								NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+								NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+								for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+									toggleControl.subviews[0].backgroundColor = darkColor;
+								}
 							}
 						}
 					}
@@ -251,8 +257,14 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 											}
 										}
 									}
+								} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+									NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+									NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+									for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+										toggleControl.subviews[0].backgroundColor = darkColor;
+									}
 								}
-							}
+							} 
 						}
 					}		
 				}
@@ -286,8 +298,14 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 											}
 										}
 									}
+								} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+									NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+									NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+									for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+										toggleControl.subviews[0].backgroundColor = lightColor;
+									}
 								}
-							}
+							} 
 						}
 					}		
 				}
@@ -332,6 +350,12 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 										}
 									}
 								}
+							} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+								NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+								NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+								for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+									toggleControl.subviews[0].backgroundColor = darkColor;
+								}
 							}
 						}
 					}
@@ -369,8 +393,14 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 											}
 										}
 									}
+								} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+									NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+									NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+									for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+										toggleControl.subviews[0].backgroundColor = darkColor;
+									}
 								}
-							}
+							} 
 						}
 					}		
 				}
@@ -404,8 +434,14 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 											}
 										}
 									}
+								} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+									NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+									NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+									for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+										toggleControl.subviews[0].backgroundColor = lightColor;
+									}
 								}
-							}
+							} 
 						}
 					}		
 				}
@@ -445,6 +481,12 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 										}
 									}
 								}
+							} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+								NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+								NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+								for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+									toggleControl.subviews[0].backgroundColor = darkColor;
+								}
 							}
 						}
 					}
@@ -482,8 +524,14 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 											}
 										}
 									}
+								} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+									NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+									NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+									for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+										toggleControl.subviews[0].backgroundColor = darkColor;
+									}
 								}
-							}
+							} 
 						}
 					}		
 				}
@@ -517,8 +565,14 @@ static UIColor *darkColor = [UIColor colorWithRed:0.141
 											}
 										}
 									}
+								} else if ([groupToggleControls[check] isMemberOfClass:[%c(NCNotificationListCoalescingControlsCell) class]]) {
+									NCNotificationListCoalescingControlsCell *groupToggleControlsBottom = groupToggleControls[check];
+									NSArray *groupToggleBottomControls = groupToggleControlsBottom.subviews[0].subviews[0].subviews;
+									for (NCToggleControl *toggleControl in groupToggleBottomControls) {
+										toggleControl.subviews[0].backgroundColor = lightColor;
+									}
 								}
-							}
+							} 
 						}
 					}		
 				}

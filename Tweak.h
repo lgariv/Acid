@@ -53,6 +53,9 @@
 @interface NCNotificationListCoalescingHeaderCell : UICollectionViewCell
 @end
 
+@interface NCNotificationListCoalescingControlsCell : UIView
+@end
+
 
 
 @interface UIUserInterfaceStyleArbiter : NSObject
