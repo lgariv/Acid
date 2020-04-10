@@ -2,5 +2,5 @@
 packages
 
 # Files #
-Acid.code-workspace
+*.code-workspace
 .DS_Store
