@@ -299,7 +299,7 @@ UIColor *shouldUseColor;
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											selector:@selector(didChangeAppearance:) 
 												name:@"UIAppearanceDidChange"
-											object:nil];
+											  object:nil];
 }
 
 -(void)viewWillLayoutSubviews {
