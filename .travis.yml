@@ -16,11 +16,9 @@ before_install:
   - git clone --recursive git://github.com/theos/theos.git ~/theos
   
   # get SDKs
-  - mkdir -p getSDKS
-  - cd getSDKS
   - wget https://raw.githubusercontent.com/theos/sdks/master/create_patched_sdk.sh
   - wget https://github.com/inoahdev/tbd/releases/download/v2.1/tbd
-  - sudo ./create_patched_sdk.sh - - - - . -
+  - ./create_patched_sdk.sh - - - - . -
   
 script:
   # build!
