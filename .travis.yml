@@ -14,10 +14,13 @@ before_install:
   
   # install theos
   - git clone --recursive git://github.com/theos/theos.git ~/theos
-  - cd ~/theos/sdk
-  - git clone --recursive git://github.com/theos/sdks.git .
+  
+  # get SDKs
+  - mkdir -p getSDKS
+  - cd getSDKS
+  - wget https://raw.githubusercontent.com/theos/sdks/master/create_patched_sdk.sh
   - wget https://github.com/inoahdev/tbd/releases/download/v2.1/tbd
-  - ./create_patched_sdk.sh - . - - . -
+  - ./create_patched_sdk.sh - - - - . -
   
 script:
   # build!
