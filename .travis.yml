@@ -20,7 +20,7 @@ before_install:
   - cd getSDKS
   - wget https://raw.githubusercontent.com/theos/sdks/master/create_patched_sdk.sh
   - wget https://github.com/inoahdev/tbd/releases/download/v2.1/tbd
-  - ./create_patched_sdk.sh - - - - . -
+  - sudo ./create_patched_sdk.sh - - - - . -
   
 script:
   # build!
