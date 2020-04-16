@@ -1,6 +1,6 @@
 os: osx
 language: objective-c
-sudo: false
+sudo: true
 
 env:
   global:
